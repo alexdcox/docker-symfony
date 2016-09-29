@@ -1,4 +1,5 @@
 /logs
-/symfony
 .DS_Store
 .idea
+/app/symfony/app/cache
+vendor/
