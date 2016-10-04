@@ -1,10 +1,11 @@
-import React, {Component} from "react";
+import React from "react";
 import AppBar from 'material-ui/AppBar'
-import MainDrawer from "./MainDrawer";
 
-class Navbar extends Component {
+import MainDrawer from "./main-drawer";
+
+export default class Navbar extends React.Component {
   state = {
-    open: true
+    open: false
   };
 
   render() {
@@ -21,4 +22,3 @@ class Navbar extends Component {
   }
 }
 
-export default Navbar;

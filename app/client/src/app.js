@@ -1,8 +1,10 @@
+// TODO: Re-implement or remove
+
 import "./App.css";
 import React from "react";
 import injectTapEventPlugin from "react-tap-event-plugin";
-import Navbar from "./Navbar";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
+import Navbar from "./components/navbar";
 
 // Needed for onTouchTap
 // http://stackoverflow.com/a/34015469/988941
